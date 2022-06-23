@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Munim-The-Expense-Tracker/static/css/main.331ba512.chunk.css",
+    "main.js": "/Munim-The-Expense-Tracker/static/js/main.051979ac.chunk.js",
+    "main.js.map": "/Munim-The-Expense-Tracker/static/js/main.051979ac.chunk.js.map",
+    "runtime-main.js": "/Munim-The-Expense-Tracker/static/js/runtime-main.9857df4f.js",
+    "runtime-main.js.map": "/Munim-The-Expense-Tracker/static/js/runtime-main.9857df4f.js.map",
+    "static/js/2.fcdb6777.chunk.js": "/Munim-The-Expense-Tracker/static/js/2.fcdb6777.chunk.js",
+    "static/js/2.fcdb6777.chunk.js.map": "/Munim-The-Expense-Tracker/static/js/2.fcdb6777.chunk.js.map",
+    "index.html": "/Munim-The-Expense-Tracker/index.html",
+    "static/css/main.331ba512.chunk.css.map": "/Munim-The-Expense-Tracker/static/css/main.331ba512.chunk.css.map",
+    "static/js/2.fcdb6777.chunk.js.LICENSE.txt": "/Munim-The-Expense-Tracker/static/js/2.fcdb6777.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Munim-The-Expense-Tracker/static/media/money.9eedd35c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9857df4f.js",
+    "static/js/2.fcdb6777.chunk.js",
+    "static/css/main.331ba512.chunk.css",
+    "static/js/main.051979ac.chunk.js"
+  ]
+}
