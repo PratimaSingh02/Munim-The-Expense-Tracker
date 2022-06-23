@@ -1,0 +1,38 @@
+category_income = [
+    Business
+    Investments
+    Extra income
+    Deposits
+    Lottery
+    Gifts
+    Salary
+    Savings
+    Rental income
+]
+
+category_expense = [
+    Bills
+    Car
+    Clothes
+    Travel
+    Food
+    Shopping
+    House
+    Entertainment
+    Phone
+    Pets
+    Other
+]
+
+#{}-means optional word, [|] - or, $var(arg) - variable, $SPEECHLY.<Type>(arg) - arg will be passed to react app, 
+
+*create_transaction [Create|Finish|Save] {transaction}
+*cancel_transaction [Cancel|Clear] {transaction}
+*delete_transaction [Delete|Remove] {transaction} $SPEECHLY.NUMBER(index)
+
+*set_category [Set|Change|Add] category [$category_expense|$category_income](category)
+*set_date [Set|Change|Add] date [$SPEECHLY.DATE(futureDate)|$SPEECHLY.DATE(pastDate)]
+*set_amount [Set|Change|Add] amount $SPEECHLY.NUMBER(amount)
+
+*add_expense {Add} expense amount $SPEECHLY.NUMBER(amount) category $category_expense(category) date [$SPEECHLY.DATE(futureDate)|$SPEECHLY.DATE(pastDate)]
+*add_income {Add} income amount $SPEECHLY.NUMBER(amount) category $category_income(category) date [$SPEECHLY.DATE(futureDate)|$SPEECHLY.DATE(pastDate)]
